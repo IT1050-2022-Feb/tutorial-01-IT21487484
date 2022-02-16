@@ -6,13 +6,13 @@
 
 int main() {
    
-   int marks1 , marks2;
+        int marks1 , marks2;
 	float average;
 	
 	printf("Enter marks of subject 1: ");
 	scanf("%d" , &marks1);
    
-   printf("Enter marks of subject 2: ");
+        printf("Enter marks of subject 2: ");
 	scanf("%d" , &marks2);
 	
 	average = (float) (marks1 + marks2) / 2;
@@ -20,7 +20,7 @@ int main() {
 	printf("\n");
 	printf("The Average of the 2 marks is : %.2f\n" , average);
 	
-  return 0;
+        return 0;
    
 }
 
